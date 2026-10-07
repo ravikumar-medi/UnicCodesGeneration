@@ -1,0 +1,345 @@
+2026-04-29 15:05:37 [WARN ] [main] o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer:78 - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/Ravi%20Kumar/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/Ravi%20Kumar/.m2/repository/org/json/json/20240303/json-20240303.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2026-04-29 15:05:37 [INFO ] [main] c.F.C.CodesGenerationApplicationTests:54 - Starting CodesGenerationApplicationTests using Java 17.0.7 with PID 5264 (started by Ravi Kumar in D:\Ravikumar_Medi\Projects\OperatorInterfaceCP\CodesGeneration)
+2026-04-29 15:05:37 [DEBUG] [main] c.F.C.CodesGenerationApplicationTests:55 - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-29 15:05:37 [INFO ] [main] c.F.C.CodesGenerationApplicationTests:652 - No active profile set, falling back to 1 default profile: "default"
+2026-04-29 15:05:38 [INFO ] [main] o.s.d.r.c.RepositoryConfigurationDelegate:145 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-29 15:05:38 [INFO ] [main] o.s.d.r.c.RepositoryConfigurationDelegate:213 - Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interface.
+2026-04-29 15:05:38 [INFO ] [main] o.h.o.jpa:102 - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-29 15:05:38 [INFO ] [main] o.h.o.core:41 - HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-29 15:05:39 [INFO ] [main] o.s.o.j.p.SpringPersistenceUnitInfo:129 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-29 15:05:39 [INFO ] [main] c.z.h.HikariDataSource:109 - HikariPool-1 - Starting...
+2026-04-29 15:05:39 [INFO ] [main] c.z.h.p.HikariPool:580 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@234ce7ff
+2026-04-29 15:05:39 [INFO ] [main] c.z.h.HikariDataSource:122 - HikariPool-1 - Start completed.
+2026-04-29 15:05:40 [WARN ] [main] o.h.o.deprecation:152 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-29 15:05:40 [INFO ] [main] o.h.o.c.pooling:179 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://13.206.141.108:5432/fluxsen?currentSchema=fluxsen_schema&sslmode=disable]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.13
+	Default catalog/schema: fluxsen/fluxsen_schema
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-29 15:05:41 [INFO ] [main] o.h.o.core:53 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-29 15:05:41 [INFO ] [main] o.h.o.j.batch:40 - HHH100501: Automatic JDBC statement batching enabled (maximum batch size 20)
+2026-04-29 15:05:42 [INFO ] [main] o.s.o.j.LocalContainerEntityManagerFactoryBean:464 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-29 15:05:43 [INFO ] [main] o.s.d.j.r.q.QueryEnhancerFactories:48 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-29 15:05:44 [INFO ] [main] o.s.b.a.e.w.EndpointLinksResolver:60 - Exposing 1 endpoint beneath base path '/actuator'
+2026-04-29 15:05:44 [INFO ] [main] c.F.C.CodesGenerationApplicationTests:60 - Started CodesGenerationApplicationTests in 7.222 seconds (process running for 8.351)
+2026-04-29 15:05:44 [INFO ] [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean:693 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-29 15:05:44 [INFO ] [SpringApplicationShutdownHook] c.z.h.HikariDataSource:349 - HikariPool-1 - Shutdown initiated...
+2026-04-29 15:05:44 [INFO ] [SpringApplicationShutdownHook] c.z.h.HikariDataSource:351 - HikariPool-1 - Shutdown completed.
+2026-04-29 15:05:55 [INFO ] [main] c.F.C.CodesGenerationApplication:54 - Starting CodesGenerationApplication using Java 17.0.7 with PID 2372 (D:\Ravikumar_Medi\Projects\OperatorInterfaceCP\CodesGeneration\target\classes started by Ravi Kumar in D:\Ravikumar_Medi\Projects\OperatorInterfaceCP\CodesGeneration)
+2026-04-29 15:05:55 [DEBUG] [main] c.F.C.CodesGenerationApplication:55 - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-29 15:05:55 [INFO ] [main] c.F.C.CodesGenerationApplication:652 - No active profile set, falling back to 1 default profile: "default"
+2026-04-29 15:05:56 [INFO ] [main] o.s.d.r.c.RepositoryConfigurationDelegate:145 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-29 15:05:56 [INFO ] [main] o.s.d.r.c.RepositoryConfigurationDelegate:213 - Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interface.
+2026-04-29 15:05:56 [INFO ] [main] o.s.b.t.TomcatWebServer:114 - Tomcat initialized with port 8080 (http)
+2026-04-29 15:05:56 [INFO ] [main] o.a.c.c.StandardService:168 - Starting service [Tomcat]
+2026-04-29 15:05:56 [INFO ] [main] o.a.c.c.StandardEngine:168 - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-29 15:05:56 [INFO ] [main] o.s.b.w.c.s.WebApplicationContextInitializer:77 - Root WebApplicationContext: initialization completed in 1044 ms
+2026-04-29 15:05:56 [INFO ] [main] o.h.o.jpa:102 - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-29 15:05:56 [INFO ] [main] o.h.o.core:41 - HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-29 15:05:57 [INFO ] [main] o.s.o.j.p.SpringPersistenceUnitInfo:129 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-29 15:05:57 [INFO ] [main] c.z.h.HikariDataSource:109 - HikariPool-1 - Starting...
+2026-04-29 15:05:57 [INFO ] [main] c.z.h.p.HikariPool:580 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@205f52ea
+2026-04-29 15:05:57 [INFO ] [main] c.z.h.HikariDataSource:122 - HikariPool-1 - Start completed.
+2026-04-29 15:05:57 [WARN ] [main] o.h.o.deprecation:152 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-29 15:05:58 [INFO ] [main] o.h.o.c.pooling:179 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://13.206.141.108:5432/fluxsen?currentSchema=fluxsen_schema&sslmode=disable]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.13
+	Default catalog/schema: fluxsen/fluxsen_schema
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-29 15:05:58 [INFO ] [main] o.h.o.core:53 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-29 15:05:58 [INFO ] [main] o.h.o.j.batch:40 - HHH100501: Automatic JDBC statement batching enabled (maximum batch size 20)
+2026-04-29 15:06:00 [INFO ] [main] o.s.o.j.LocalContainerEntityManagerFactoryBean:464 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-29 15:06:00 [INFO ] [main] o.s.d.j.r.q.QueryEnhancerFactories:48 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-29 15:06:00 [INFO ] [main] o.s.b.a.e.w.EndpointLinksResolver:60 - Exposing 1 endpoint beneath base path '/actuator'
+2026-04-29 15:06:00 [INFO ] [main] o.s.b.t.TomcatWebServer:240 - Tomcat started on port 8080 (http) with context path '/api'
+2026-04-29 15:06:00 [INFO ] [main] c.F.C.CodesGenerationApplication:60 - Started CodesGenerationApplication in 5.82 seconds (process running for 6.312)
+2026-04-29 15:06:01 [INFO ] [RMI TCP Connection(4)-127.0.0.1] o.a.c.c.C.[.[.[/api]:168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-29 15:06:01 [INFO ] [RMI TCP Connection(4)-127.0.0.1] o.s.w.s.DispatcherServlet:523 - Initializing Servlet 'dispatcherServlet'
+2026-04-29 15:06:01 [INFO ] [RMI TCP Connection(4)-127.0.0.1] o.s.w.s.DispatcherServlet:545 - Completed initialization in 2 ms
+2026-04-29 15:12:27 [INFO ] [RMI TCP Connection(12)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:150 - Application shutdown requested.
+2026-04-29 15:12:27 [INFO ] [RMI TCP Connection(12)-127.0.0.1] o.s.b.t.GracefulShutdown:54 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-29 15:12:28 [INFO ] [tomcat-shutdown] o.s.b.t.GracefulShutdown:76 - Graceful shutdown complete
+2026-04-29 15:12:28 [INFO ] [RMI TCP Connection(12)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean:693 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-29 15:12:28 [INFO ] [RMI TCP Connection(12)-127.0.0.1] c.z.h.HikariDataSource:349 - HikariPool-1 - Shutdown initiated...
+2026-04-29 15:12:28 [INFO ] [RMI TCP Connection(12)-127.0.0.1] c.z.h.HikariDataSource:351 - HikariPool-1 - Shutdown completed.
+2026-04-29 15:12:33 [INFO ] [main] c.F.C.CodesGenerationApplication:54 - Starting CodesGenerationApplication using Java 17.0.7 with PID 10492 (D:\Ravikumar_Medi\Projects\OperatorInterfaceCP\CodesGeneration\target\classes started by Ravi Kumar in D:\Ravikumar_Medi\Projects\OperatorInterfaceCP\CodesGeneration)
+2026-04-29 15:12:33 [DEBUG] [main] c.F.C.CodesGenerationApplication:55 - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-29 15:12:33 [INFO ] [main] c.F.C.CodesGenerationApplication:652 - No active profile set, falling back to 1 default profile: "default"
+2026-04-29 15:12:34 [INFO ] [main] o.s.d.r.c.RepositoryConfigurationDelegate:145 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-29 15:12:34 [INFO ] [main] o.s.d.r.c.RepositoryConfigurationDelegate:213 - Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interface.
+2026-04-29 15:12:34 [INFO ] [main] o.s.b.t.TomcatWebServer:114 - Tomcat initialized with port 8080 (http)
+2026-04-29 15:12:34 [INFO ] [main] o.a.c.c.StandardService:168 - Starting service [Tomcat]
+2026-04-29 15:12:34 [INFO ] [main] o.a.c.c.StandardEngine:168 - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-29 15:12:34 [INFO ] [main] o.s.b.w.c.s.WebApplicationContextInitializer:77 - Root WebApplicationContext: initialization completed in 1035 ms
+2026-04-29 15:12:34 [INFO ] [main] o.h.o.jpa:102 - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-29 15:12:35 [INFO ] [main] o.h.o.core:41 - HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-29 15:12:35 [INFO ] [main] o.s.o.j.p.SpringPersistenceUnitInfo:129 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-29 15:12:35 [INFO ] [main] c.z.h.HikariDataSource:109 - HikariPool-1 - Starting...
+2026-04-29 15:12:36 [INFO ] [main] c.z.h.p.HikariPool:580 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@453a30f8
+2026-04-29 15:12:36 [INFO ] [main] c.z.h.HikariDataSource:122 - HikariPool-1 - Start completed.
+2026-04-29 15:12:36 [WARN ] [main] o.h.o.deprecation:152 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-29 15:12:36 [INFO ] [main] o.h.o.c.pooling:179 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://13.206.141.108:5432/fluxsen?currentSchema=fluxsen_schema&sslmode=disable]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.13
+	Default catalog/schema: fluxsen/fluxsen_schema
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-29 15:12:37 [INFO ] [main] o.h.o.core:53 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-29 15:12:37 [INFO ] [main] o.h.o.j.batch:40 - HHH100501: Automatic JDBC statement batching enabled (maximum batch size 20)
+2026-04-29 15:12:38 [INFO ] [main] o.s.o.j.LocalContainerEntityManagerFactoryBean:464 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-29 15:12:38 [INFO ] [main] o.s.d.j.r.q.QueryEnhancerFactories:48 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-29 15:12:38 [INFO ] [main] o.s.b.a.e.w.EndpointLinksResolver:60 - Exposing 1 endpoint beneath base path '/actuator'
+2026-04-29 15:12:38 [INFO ] [main] o.s.b.t.TomcatWebServer:240 - Tomcat started on port 8080 (http) with context path '/api'
+2026-04-29 15:12:38 [INFO ] [main] c.F.C.CodesGenerationApplication:60 - Started CodesGenerationApplication in 5.443 seconds (process running for 5.966)
+2026-04-29 15:12:39 [INFO ] [RMI TCP Connection(4)-127.0.0.1] o.a.c.c.C.[.[.[/api]:168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-29 15:12:39 [INFO ] [RMI TCP Connection(4)-127.0.0.1] o.s.w.s.DispatcherServlet:523 - Initializing Servlet 'dispatcherServlet'
+2026-04-29 15:12:39 [INFO ] [RMI TCP Connection(4)-127.0.0.1] o.s.w.s.DispatcherServlet:545 - Completed initialization in 1 ms
+2026-04-29 15:13:14 [INFO ] [http-nio-8080-exec-1] c.F.C.C.UniqueCodeController:59 - ========== generateUniqueCodes API Called ==========
+2026-04-29 15:13:14 [DEBUG] [http-nio-8080-exec-1] c.F.C.C.UniqueCodeController:64 - Request Body => {
+    "companyId"   : "777",
+    "companyName" : "Corteva Agrisciense India Pvt Ltd",
+    "plantId"     : "P1",
+    "plantName"   : "Savli",
+    "lineId"      : "L3",
+    "lineName"    : "Line-3",
+    "year"        : "2026",
+    "noOfLots"    : "1",
+    "uidCodeType"   : "Primary"
+}
+2026-04-29 15:13:14 [INFO ] [http-nio-8080-exec-1] c.F.C.S.CentralDBService:46 - ========== UNIQUE CODE GENERATION START ==========
+2026-04-29 15:13:14 [INFO ] [http-nio-8080-exec-1] c.F.C.S.CentralDBService:49 - Request validated => companyId=777, plantId=P1, lineId=L3, year=2026, type=Primary
+2026-04-29 15:13:14 [INFO ] [http-nio-8080-exec-1] c.F.C.S.CentralDBService:138 - Processing lot 1/1
+2026-04-29 15:13:53 [INFO ] [http-nio-8080-exec-1] c.F.C.S.CentralDBService:176 - LOT 1 summary => generated=100, skipped=0, failed=0
+2026-04-29 15:13:53 [INFO ] [http-nio-8080-exec-1] c.F.C.S.CentralDBService:56 - ========== UNIQUE CODE GENERATION COMPLETE ==========: generatedCodes=100, timeTaken=39283ms
+2026-04-29 15:13:53 [INFO ] [http-nio-8080-exec-1] c.F.C.S.RequestResponseLogService:47 - Request-Response log saved successfully for API: /generateUniqueCodes
+2026-04-29 15:13:53 [INFO ] [http-nio-8080-exec-1] c.F.C.C.UniqueCodeController:80 - ========== generateUniqueCodes API Completed ==========
+2026-04-29 15:22:59 [INFO ] [http-nio-8080-exec-3] c.F.C.C.UniqueCodeController:59 - ========== generateUniqueCodes API Called ==========
+2026-04-29 15:22:59 [DEBUG] [http-nio-8080-exec-3] c.F.C.C.UniqueCodeController:64 - Request Body => {
+    "companyId"   : "777",
+    "companyName" : "Corteva Agrisciense India Pvt Ltd",
+    "plantId"     : "P1",
+    "plantName"   : "Savli",
+    "lineId"      : "L3",
+    "lineName"    : "Line-3",
+    "year"        : "2026",
+    "noOfLots"    : "1",
+    "uidCodeType"   : "Primary"
+}
+2026-04-29 15:22:59 [INFO ] [http-nio-8080-exec-3] c.F.C.S.CentralDBService:46 - ========== UNIQUE CODE GENERATION START ==========
+2026-04-29 15:22:59 [INFO ] [http-nio-8080-exec-3] c.F.C.S.CentralDBService:49 - Request validated => companyId=777, plantId=P1, lineId=L3, year=2026, type=Primary
+2026-04-29 15:22:59 [INFO ] [http-nio-8080-exec-3] c.F.C.S.CentralDBService:138 - Processing lot 1/1
+2026-04-29 15:23:38 [INFO ] [http-nio-8080-exec-3] c.F.C.S.CentralDBService:176 - LOT 1 summary => generated=100, skipped=0, failed=0
+2026-04-29 15:23:38 [INFO ] [http-nio-8080-exec-3] c.F.C.S.CentralDBService:56 - ========== UNIQUE CODE GENERATION COMPLETE ==========: generatedCodes=100, timeTaken=39123ms
+2026-04-29 15:23:38 [INFO ] [http-nio-8080-exec-3] c.F.C.S.RequestResponseLogService:47 - Request-Response log saved successfully for API: /generateUniqueCodes
+2026-04-29 15:23:38 [INFO ] [http-nio-8080-exec-3] c.F.C.C.UniqueCodeController:80 - ========== generateUniqueCodes API Completed ==========
+2026-04-29 15:48:58 [WARN ] [main] o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer:78 - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/Ravi%20Kumar/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/Ravi%20Kumar/.m2/repository/org/json/json/20240303/json-20240303.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2026-04-29 15:48:58 [INFO ] [main] c.F.C.CodesGenerationApplicationTests:54 - Starting CodesGenerationApplicationTests using Java 17.0.7 with PID 14172 (started by Ravi Kumar in D:\git\tntcodegeneration)
+2026-04-29 15:48:58 [DEBUG] [main] c.F.C.CodesGenerationApplicationTests:55 - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-29 15:48:58 [INFO ] [main] c.F.C.CodesGenerationApplicationTests:652 - No active profile set, falling back to 1 default profile: "default"
+2026-04-29 15:48:59 [INFO ] [main] o.s.d.r.c.RepositoryConfigurationDelegate:145 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-29 15:48:59 [INFO ] [main] o.s.d.r.c.RepositoryConfigurationDelegate:213 - Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interface.
+2026-04-29 15:48:59 [INFO ] [main] o.h.o.jpa:102 - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-29 15:48:59 [INFO ] [main] o.h.o.core:41 - HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-29 15:49:00 [INFO ] [main] o.s.o.j.p.SpringPersistenceUnitInfo:129 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-29 15:49:00 [INFO ] [main] c.z.h.HikariDataSource:109 - HikariPool-1 - Starting...
+2026-04-29 15:49:01 [INFO ] [main] c.z.h.p.HikariPool:580 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@470f0637
+2026-04-29 15:49:01 [INFO ] [main] c.z.h.HikariDataSource:122 - HikariPool-1 - Start completed.
+2026-04-29 15:49:01 [WARN ] [main] o.h.o.deprecation:152 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-29 15:49:01 [INFO ] [main] o.h.o.c.pooling:179 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://13.206.141.108:5432/fluxsen?currentSchema=fluxsen_schema&sslmode=disable]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.13
+	Default catalog/schema: fluxsen/fluxsen_schema
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-29 15:49:02 [INFO ] [main] o.h.o.core:53 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-29 15:49:02 [INFO ] [main] o.h.o.j.batch:40 - HHH100501: Automatic JDBC statement batching enabled (maximum batch size 20)
+2026-04-29 15:49:03 [INFO ] [main] o.s.o.j.LocalContainerEntityManagerFactoryBean:464 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-29 15:49:03 [INFO ] [main] o.s.d.j.r.q.QueryEnhancerFactories:48 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-29 15:49:04 [INFO ] [main] o.s.b.a.e.w.EndpointLinksResolver:60 - Exposing 1 endpoint beneath base path '/actuator'
+2026-04-29 15:49:04 [INFO ] [main] c.F.C.CodesGenerationApplicationTests:60 - Started CodesGenerationApplicationTests in 6.415 seconds (process running for 7.658)
+2026-04-29 15:49:05 [INFO ] [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean:693 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-29 15:49:05 [INFO ] [SpringApplicationShutdownHook] c.z.h.HikariDataSource:349 - HikariPool-1 - Shutdown initiated...
+2026-04-29 15:49:05 [INFO ] [SpringApplicationShutdownHook] c.z.h.HikariDataSource:351 - HikariPool-1 - Shutdown completed.
+2026-04-29 15:49:17 [INFO ] [main] c.F.C.CodesGenerationApplication:54 - Starting CodesGenerationApplication using Java 17.0.7 with PID 1204 (D:\git\tntcodegeneration\target\classes started by Ravi Kumar in D:\git\tntcodegeneration)
+2026-04-29 15:49:17 [DEBUG] [main] c.F.C.CodesGenerationApplication:55 - Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-04-29 15:49:17 [INFO ] [main] c.F.C.CodesGenerationApplication:652 - No active profile set, falling back to 1 default profile: "default"
+2026-04-29 15:49:18 [INFO ] [main] o.s.d.r.c.RepositoryConfigurationDelegate:145 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-29 15:49:18 [INFO ] [main] o.s.d.r.c.RepositoryConfigurationDelegate:213 - Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interface.
+2026-04-29 15:49:18 [INFO ] [main] o.s.b.t.TomcatWebServer:114 - Tomcat initialized with port 8080 (http)
+2026-04-29 15:49:18 [INFO ] [main] o.a.c.c.StandardService:168 - Starting service [Tomcat]
+2026-04-29 15:49:18 [INFO ] [main] o.a.c.c.StandardEngine:168 - Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-04-29 15:49:18 [INFO ] [main] o.s.b.w.c.s.WebApplicationContextInitializer:77 - Root WebApplicationContext: initialization completed in 1029 ms
+2026-04-29 15:49:18 [INFO ] [main] o.h.o.jpa:102 - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-04-29 15:49:18 [INFO ] [main] o.h.o.core:41 - HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-04-29 15:49:19 [INFO ] [main] o.s.o.j.p.SpringPersistenceUnitInfo:129 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-29 15:49:19 [INFO ] [main] c.z.h.HikariDataSource:109 - HikariPool-1 - Starting...
+2026-04-29 15:49:19 [INFO ] [main] c.z.h.p.HikariPool:580 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@73a116d
+2026-04-29 15:49:19 [INFO ] [main] c.z.h.HikariDataSource:122 - HikariPool-1 - Start completed.
+2026-04-29 15:49:20 [WARN ] [main] o.h.o.deprecation:152 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-29 15:49:20 [INFO ] [main] o.h.o.c.pooling:179 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://13.206.141.108:5432/fluxsen?currentSchema=fluxsen_schema&sslmode=disable]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 16.13
+	Default catalog/schema: fluxsen/fluxsen_schema
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-04-29 15:49:21 [INFO ] [main] o.h.o.core:53 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-29 15:49:21 [INFO ] [main] o.h.o.j.batch:40 - HHH100501: Automatic JDBC statement batching enabled (maximum batch size 20)
+2026-04-29 15:49:21 [INFO ] [main] o.s.o.j.LocalContainerEntityManagerFactoryBean:464 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-29 15:49:21 [INFO ] [main] o.s.d.j.r.q.QueryEnhancerFactories:48 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-04-29 15:49:22 [INFO ] [main] o.s.b.a.e.w.EndpointLinksResolver:60 - Exposing 1 endpoint beneath base path '/actuator'
+2026-04-29 15:49:22 [INFO ] [main] o.s.b.t.TomcatWebServer:240 - Tomcat started on port 8080 (http) with context path '/api'
+2026-04-29 15:49:22 [INFO ] [main] c.F.C.CodesGenerationApplication:60 - Started CodesGenerationApplication in 5.143 seconds (process running for 5.634)
+2026-04-29 15:49:22 [INFO ] [RMI TCP Connection(4)-127.0.0.1] o.a.c.c.C.[.[.[/api]:168 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-29 15:49:22 [INFO ] [RMI TCP Connection(4)-127.0.0.1] o.s.w.s.DispatcherServlet:523 - Initializing Servlet 'dispatcherServlet'
+2026-04-29 15:49:22 [INFO ] [RMI TCP Connection(4)-127.0.0.1] o.s.w.s.DispatcherServlet:545 - Completed initialization in 3 ms
+2026-04-29 15:49:37 [INFO ] [http-nio-8080-exec-1] c.F.C.C.UniqueCodeController:59 - ========== generateUniqueCodes API Called ==========
+2026-04-29 15:49:37 [DEBUG] [http-nio-8080-exec-1] c.F.C.C.UniqueCodeController:64 - Request Body => {
+    "companyId"   : "777",
+    "companyName" : "Corteva Agrisciense India Pvt Ltd",
+    "plantId"     : "P1",
+    "plantName"   : "Savli",
+    "lineId"      : "L3",
+    "lineName"    : "Line-3",
+    "year"        : "2026",
+    "noOfLots"    : "1",
+    "uidCodeType"   : "Primary"
+}
+2026-04-29 15:49:37 [INFO ] [http-nio-8080-exec-1] c.F.C.S.CentralDBService:46 - ========== UNIQUE CODE GENERATION START ==========
+2026-04-29 15:49:37 [INFO ] [http-nio-8080-exec-1] c.F.C.S.CentralDBService:49 - Request validated => companyId=777, plantId=P1, lineId=L3, year=2026, type=Primary
+2026-04-29 15:49:37 [INFO ] [http-nio-8080-exec-1] c.F.C.S.CentralDBService:138 - Processing lot 1/1
+2026-04-29 15:50:20 [INFO ] [http-nio-8080-exec-1] c.F.C.S.CentralDBService:176 - LOT 1 summary => generated=100, skipped=0, failed=0
+2026-04-29 15:50:20 [INFO ] [http-nio-8080-exec-1] c.F.C.S.CentralDBService:56 - ========== UNIQUE CODE GENERATION COMPLETE ==========: generatedCodes=100, timeTaken=42815ms
+2026-04-29 15:50:20 [INFO ] [http-nio-8080-exec-1] c.F.C.S.RequestResponseLogService:47 - Request-Response log saved successfully for API: /generateUniqueCodes
+2026-04-29 15:50:20 [INFO ] [http-nio-8080-exec-1] c.F.C.C.UniqueCodeController:80 - ========== generateUniqueCodes API Completed ==========
+2026-04-29 15:55:44 [INFO ] [RMI TCP Connection(12)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:150 - Application shutdown requested.
+2026-04-29 15:55:44 [INFO ] [RMI TCP Connection(12)-127.0.0.1] o.s.b.t.GracefulShutdown:54 - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-29 15:55:44 [INFO ] [tomcat-shutdown] o.s.b.t.GracefulShutdown:76 - Graceful shutdown complete
+2026-04-29 15:55:44 [INFO ] [RMI TCP Connection(12)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean:693 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-29 15:55:44 [INFO ] [RMI TCP Connection(12)-127.0.0.1] c.z.h.HikariDataSource:349 - HikariPool-1 - Shutdown initiated...
+2026-04-29 15:55:44 [INFO ] [RMI TCP Connection(12)-127.0.0.1] c.z.h.HikariDataSource:351 - HikariPool-1 - Shutdown completed.
+2026-04-29 16:01:33 [WARN ] [main] o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer:78 - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/Ravi%20Kumar/.m2/repository/org/json/json/20240303/json-20240303.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/Ravi%20Kumar/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2026-04-29 16:01:33 [INFO ] [main] c.F.C.CodesGenerationApplicationTests:50 - Starting CodesGenerationApplicationTests using Java 17.0.7 with PID 21412 (started by Ravi Kumar in D:\git\tntcodegeneration)
+2026-04-29 16:01:33 [DEBUG] [main] c.F.C.CodesGenerationApplicationTests:51 - Running with Spring Boot v3.2.5, Spring v6.1.6
+2026-04-29 16:01:33 [INFO ] [main] c.F.C.CodesGenerationApplicationTests:654 - No active profile set, falling back to 1 default profile: "default"
+2026-04-29 16:01:34 [INFO ] [main] o.s.d.r.c.RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-29 16:01:34 [INFO ] [main] o.s.d.r.c.RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interface.
+2026-04-29 16:01:34 [INFO ] [main] o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-29 16:01:35 [INFO ] [main] o.h.Version:44 - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-04-29 16:01:35 [INFO ] [main] o.h.c.i.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2026-04-29 16:01:35 [INFO ] [main] o.s.o.j.p.SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-29 16:01:35 [INFO ] [main] c.z.h.HikariDataSource:110 - HikariPool-1 - Starting...
+2026-04-29 16:01:36 [INFO ] [main] c.z.h.p.HikariPool:565 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@d8e4250
+2026-04-29 16:01:36 [INFO ] [main] c.z.h.HikariDataSource:123 - HikariPool-1 - Start completed.
+2026-04-29 16:01:36 [WARN ] [main] o.h.o.deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-29 16:01:37 [INFO ] [main] o.h.e.t.j.p.i.JtaPlatformInitiator:58 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-29 16:01:38 [INFO ] [main] o.s.o.j.LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-29 16:01:39 [INFO ] [main] o.s.b.a.e.w.EndpointLinksResolver:58 - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-04-29 16:01:39 [INFO ] [main] c.F.C.CodesGenerationApplicationTests:56 - Started CodesGenerationApplicationTests in 6.628 seconds (process running for 7.569)
+2026-04-29 16:01:40 [INFO ] [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-29 16:01:40 [INFO ] [SpringApplicationShutdownHook] c.z.h.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2026-04-29 16:01:40 [INFO ] [SpringApplicationShutdownHook] c.z.h.HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2026-04-29 16:01:51 [INFO ] [main] c.F.C.CodesGenerationApplication:50 - Starting CodesGenerationApplication using Java 17.0.7 with PID 3128 (D:\git\tntcodegeneration\target\classes started by Ravi Kumar in D:\git\tntcodegeneration)
+2026-04-29 16:01:51 [DEBUG] [main] c.F.C.CodesGenerationApplication:51 - Running with Spring Boot v3.2.5, Spring v6.1.6
+2026-04-29 16:01:51 [INFO ] [main] c.F.C.CodesGenerationApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2026-04-29 16:01:52 [INFO ] [main] o.s.d.r.c.RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-29 16:01:52 [INFO ] [main] o.s.d.r.c.RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interface.
+2026-04-29 16:01:53 [INFO ] [main] o.s.b.w.e.t.TomcatWebServer:109 - Tomcat initialized with port 8080 (http)
+2026-04-29 16:01:53 [INFO ] [main] o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2026-04-29 16:01:53 [INFO ] [main] o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-04-29 16:01:53 [INFO ] [main] o.a.c.c.C.[.[.[/api]:173 - Initializing Spring embedded WebApplicationContext
+2026-04-29 16:01:53 [INFO ] [main] o.s.b.w.s.c.ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 1259 ms
+2026-04-29 16:01:53 [INFO ] [main] o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-29 16:01:53 [INFO ] [main] o.h.Version:44 - HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-04-29 16:01:53 [INFO ] [main] o.h.c.i.RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2026-04-29 16:01:53 [INFO ] [main] o.s.o.j.p.SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-04-29 16:01:53 [INFO ] [main] c.z.h.HikariDataSource:110 - HikariPool-1 - Starting...
+2026-04-29 16:01:54 [INFO ] [main] c.z.h.p.HikariPool:565 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6f52a229
+2026-04-29 16:01:54 [INFO ] [main] c.z.h.HikariDataSource:123 - HikariPool-1 - Start completed.
+2026-04-29 16:01:54 [WARN ] [main] o.h.o.deprecation:153 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-29 16:01:55 [INFO ] [main] o.h.e.t.j.p.i.JtaPlatformInitiator:58 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-04-29 16:01:55 [INFO ] [main] o.s.o.j.LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-29 16:01:56 [INFO ] [main] o.s.b.a.e.w.EndpointLinksResolver:58 - Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-04-29 16:01:56 [INFO ] [main] o.s.b.w.e.t.TomcatWebServer:241 - Tomcat started on port 8080 (http) with context path '/api'
+2026-04-29 16:01:56 [INFO ] [main] c.F.C.CodesGenerationApplication:56 - Started CodesGenerationApplication in 5.427 seconds (process running for 5.868)
+2026-04-29 16:01:57 [INFO ] [RMI TCP Connection(4)-127.0.0.1] o.a.c.c.C.[.[.[/api]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-29 16:01:57 [INFO ] [RMI TCP Connection(4)-127.0.0.1] o.s.w.s.DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2026-04-29 16:01:57 [INFO ] [RMI TCP Connection(4)-127.0.0.1] o.s.w.s.DispatcherServlet:554 - Completed initialization in 1 ms
+2026-04-29 16:02:08 [INFO ] [http-nio-8080-exec-3] c.F.C.C.UniqueCodeController:59 - ========== generateUniqueCodes API Called ==========
+2026-04-29 16:02:08 [DEBUG] [http-nio-8080-exec-3] c.F.C.C.UniqueCodeController:64 - Request Body => {
+    "companyId"   : "777",
+    "companyName" : "Corteva Agrisciense India Pvt Ltd",
+    "plantId"     : "P1",
+    "plantName"   : "Savli",
+    "lineId"      : "L3",
+    "lineName"    : "Line-3",
+    "year"        : "2026",
+    "noOfLots"    : "1",
+    "uidCodeType"   : "Primary"
+}
+2026-04-29 16:02:08 [INFO ] [http-nio-8080-exec-3] c.F.C.S.CentralDBService:46 - ========== UNIQUE CODE GENERATION START ==========
+2026-04-29 16:02:08 [INFO ] [http-nio-8080-exec-3] c.F.C.S.CentralDBService:49 - Request validated => companyId=777, plantId=P1, lineId=L3, year=2026, type=Primary
+2026-04-29 16:02:08 [INFO ] [http-nio-8080-exec-3] c.F.C.S.CentralDBService:138 - Processing lot 1/1
+2026-04-29 16:02:55 [INFO ] [http-nio-8080-exec-3] c.F.C.S.CentralDBService:176 - LOT 1 summary => generated=100, skipped=0, failed=0
+2026-04-29 16:02:55 [INFO ] [http-nio-8080-exec-3] c.F.C.S.CentralDBService:56 - ========== UNIQUE CODE GENERATION COMPLETE ==========: generatedCodes=100, timeTaken=47534ms
+2026-04-29 16:02:55 [INFO ] [http-nio-8080-exec-3] c.F.C.S.RequestResponseLogService:47 - Request-Response log saved successfully for API: /generateUniqueCodes
+2026-04-29 16:02:55 [INFO ] [http-nio-8080-exec-3] c.F.C.C.UniqueCodeController:80 - ========== generateUniqueCodes API Completed ==========
+2026-04-29 16:04:26 [INFO ] [RMI TCP Connection(8)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - Application shutdown requested.
+2026-04-29 16:04:26 [INFO ] [RMI TCP Connection(8)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-04-29 16:04:26 [INFO ] [RMI TCP Connection(8)-127.0.0.1] c.z.h.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2026-04-29 16:04:26 [INFO ] [RMI TCP Connection(8)-127.0.0.1] c.z.h.HikariDataSource:352 - HikariPool-1 - Shutdown completed.
