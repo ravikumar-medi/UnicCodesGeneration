@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.Fluxsens.CodesGeneration.CodesGenerationApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.680 s -- in com.Fluxsens.CodesGeneration.CodesGenerationApplicationTests

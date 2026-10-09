@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard | Codes Generation</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+            color: #0f172a;
+        }
+        .topbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 18px 28px;
+            background: #0f172a;
+            color: #f8fafc;
+        }
+        .brand {
+            font-size: 1.3rem;
+            font-weight: 700;
+        }
+        .user-actions {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+        .user-pill {
+            background: rgba(148, 163, 184, 0.14);
+            border: 1px solid rgba(148, 163, 184, 0.18);
+            padding: 8px 12px;
+            border-radius: 999px;
+            font-size: 0.92rem;
+        }
+        button.logout {
+            cursor: pointer;
+            background: #ef4444;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 9px 14px;
+            font-weight: 700;
+        }
+        .container {
+            padding: 28px;
+        }
+        .welcome {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 18px;
+        }
+        .card {
+            background: white;
+            border-radius: 14px;
+            padding: 20px;
+            box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+            border: 1px solid #e2e8f0;
+        }
+        .label {
+            color: #64748b;
+            font-size: 0.85rem;
+            margin-bottom: 8px;
+        }
+        .value {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        .panel {
+            background: white;
+            border-radius: 14px;
+            box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+            margin-top: 28px;
+            overflow: hidden;
+            border: 1px solid #e2e8f0;
+        }
+        .panel-header {
+            padding: 18px 22px;
+            border-bottom: 1px solid #e2e8f0;
+            font-weight: 700;
+            background: #f8fafc;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            text-align: left;
+            padding: 14px 22px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        th {
+            background: #f8fafc;
+        }
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <div class="brand">Codes Generation</div>
+        <div class="user-actions">
+            <div class="user-pill" id="userName">User</div>
+            <button class="logout" id="logoutBtn">Logout</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="welcome" id="welcomeText">Welcome</div>
+
+        <div class="cards">
+            <div class="card">
+                <div class="label">Generated Today</div>
+                <div class="value">12,480</div>
+            </div>
+            <div class="card">
+                <div class="label">Active Companies</div>
+                <div class="value">24</div>
+            </div>
+            <div class="card">
+                <div class="label">Success Rate</div>
+                <div class="value">99.3%</div>
+            </div>
+            <div class="card">
+                <div class="label">Pending Review</div>
+                <div class="value">18</div>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-header">Recent Code Generation Activity</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Company</th>
+                        <th>Code Type</th>
+                        <th>Quantity</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fluxsens</td>
+                        <td>UID Code</td>
+                        <td>5,000</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <td>Alpha Plant</td>
+                        <td>Serial Number</td>
+                        <td>1,250</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <td>Beta Works</td>
+                        <td>Random Number</td>
+                        <td>2,800</td>
+                        <td>Processing</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        const userName = localStorage.getItem('loggedInUser') || 'Guest';
+        document.getElementById('userName').textContent = userName;
+        document.getElementById('welcomeText').textContent = 'Welcome, ' + userName + '!';
+
+        document.getElementById('logoutBtn').addEventListener('click', function () {
+            localStorage.removeItem('loggedInUser');
+            window.location.href = '/login';
+        });
+    </script>
+</body>
+</html>
